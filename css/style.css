@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*------------------------------------------
+  初期スタイル調整
+------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+/* body全体の初期スタイル調整 */
+body {
+    line-height: 1.75;
+    font-family: sans-serif;
+}
+
+/* 各要素の初期スタイル調整 */
+h1,
+h2 {
+    margin-top: 0;
+    line-height: 1.333;
+}
+
+a {
+    color: #806342;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+ul {
+    margin: 1em 0;
+    padding: 0;
+}
+figure {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}

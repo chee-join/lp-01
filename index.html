@@ -1,9 +1,13 @@
 <!doctype html>
-<html>
+<html lang="ja">
 
 <head>
   <meta charset="utf-8">
-  <title>無題ドキュメント</title>
+  <title>BURGER</title>
+  <meta name="keywords" content="ハンバーガー、世田谷、こだわり">
+  <meta name="description" content="世田谷でこだわりのハンバーガーなら「BURGER」">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -40,8 +44,8 @@
       <h2 class="heading">
         <img src="img/ttl-menu.svg" alt="menu">
       </h2>
-      <ul>
-        <li> アボカドチーズバーガー … ¥1,460 </li>
+      <ul class="menu__list">
+        <li>アボカドチーズバーガー … ¥1,460</li>
         <li>自家製ベーコンチーズバーガー … ¥1,580</li>
         <li>マッシュルームモッツァレラチーズバーガー … ¥1,500</li>
         <li>チリチーズバーガー … ¥1,740</li>
@@ -54,12 +58,17 @@
         <img src="img/ttl-photos.svg" alt="photos">
       </h2>
       <ul>
-        <li>［写真：アボカドチーズバーガー］<br>
-          こだわりのハンバーガーを提供しています。</li>
-        <li>［写真：テイクアウト用のボックス］<br>
-          テイクアウトOKです。</li>
-        <li>［写真：注文サイトの画面］<br>
-          オンラインでのご注文も承っております。</li>
+        <li>
+          <figure>
+            <img src="img/photo-img-1.jpg" alt="写真:アボカドチーズバーガー">こだわりのハンバーガーを提供しています。
+          </figure>
+        </li>
+        <li>
+          <figure><img src="img/photo-img-2.jpg" alt="写真:テイクアウト用のボックス">テイクアウトOKです。</figure>
+        </li>
+        <li>
+          <figure><img src="img/photo-img-3.jpg" alt="写真:注文サイトの画面">オンラインでのご注文も承っております。</figure>
+        </li>
       </ul>
     </section>
 
@@ -67,17 +76,23 @@
       <h2 class="heading">
         <img src="img/ttl-access.svg" alt="access">
       </h2>
-      <p><strong>Burger shop</strong><br>
+      <address class="access__address">
+        <strong>Burger shop</strong><br>
         〒157-0072　東京都世田谷区祖師谷３−３２−１<br>
         電話：03-3484-0132　<br>
-        FAX：03-3482-0294 </p>
-      <p>［地図画像］</p>
+        FAX：03-3482-0294
+      </address>
+      <figure class="access__map">
+        <img src="img/map.png" alt="地図画像">
+      </figure>
     </section>
 
   </main>
 
   <footer class="footer">
-    <p> BURGER</p>
+    <p>
+      <img src="img/logo.png" alt="BURGER">
+    </p>
     <nav class="nav">
       <ul>
         <li><a href="#about">about</a></li>
@@ -86,7 +101,9 @@
         <li><a href="#access">access</a></li>
       </ul>
     </nav>
-    <p>© Yoshida Design.</p>
+    <p class="copyright">
+      <small>&copy; Yoshida Design.</small>
+    </p>
   </footer>
 </body>
 
