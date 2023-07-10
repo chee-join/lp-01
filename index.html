@@ -57,17 +57,24 @@
       <h2 class="heading">
         <img src="img/ttl-photos.svg" alt="photos">
       </h2>
-      <ul>
+      <ul class="photos__list">
         <li>
           <figure>
-            <img src="img/photo-img-1.jpg" alt="写真:アボカドチーズバーガー">こだわりのハンバーガーを提供しています。
+            <img src="img/photo-img-1.jpg" alt="写真:アボカドチーズバーガー">
+            <figcaption>こだわりのハンバーガーを提供しています。</figcaption>
           </figure>
         </li>
         <li>
-          <figure><img src="img/photo-img-2.jpg" alt="写真:テイクアウト用のボックス">テイクアウトOKです。</figure>
+          <figure>
+            <img src="img/photo-img-2.jpg" alt="写真:テイクアウト用のボックス">
+            <figcaption>テイクアウトOKです。</figcaption>
+          </figure>
         </li>
         <li>
-          <figure><img src="img/photo-img-3.jpg" alt="写真:注文サイトの画面">オンラインでのご注文も承っております。</figure>
+          <figure>
+            <img src="img/photo-img-3.jpg" alt="写真:注文サイトの画面">
+            <figcaption>オンラインでのご注文も承っております。</figcaption>
+          </figure>
         </li>
       </ul>
     </section>
@@ -76,34 +83,40 @@
       <h2 class="heading">
         <img src="img/ttl-access.svg" alt="access">
       </h2>
-      <address class="access__address">
-        <strong>Burger shop</strong><br>
-        〒157-0072 東京都世田谷区祖師谷３−３２−１<br>
-        電話:03-3484-0132<br>
-        FAX:03-3482-0294
-      </address>
-      <figure class="access__map">
-        <img src="img/map.png" alt="地図画像">
-      </figure>
+      <div class="access__container">
+        <address class="access__address">
+          <strong>Burger shop</strong>
+          〒157-0072 東京都世田谷区祖師谷３−３２−１<br>
+          電話:03-3484-0132<br>
+          FAX:03-3482-0294
+        </address>
+        <figure class="access__map">
+          <img src="img/map.png" alt="地図画像">
+        </figure>
+      </div>
     </section>
 
   </main>
 
   <footer class="footer">
-    <p>
-      <img src="img/logo.png" alt="BURGER">
-    </p>
-    <nav class="nav">
-      <ul>
-        <li><a href="#about">about</a></li>
-        <li><a href="#menu">menu</a></li>
-        <li><a href="#photos">photos</a></li>
-        <li><a href="#access">access</a></li>
-      </ul>
-    </nav>
-    <p class="copyright">
-      <small>&copy; Yoshida Design.</small>
-    </p>
+    <div class="footer__container">
+      <p class="footer__logo">
+        <img src="img/logo.png" alt="BURGER">
+      </p>
+      <div class="footer__body">
+        <nav class="footer__nav">
+          <ul>
+            <li><a href="#about">about</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#photos">photos</a></li>
+            <li><a href="#access">access</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">
+          <small>&copy; Yoshida Design.</small>
+        </p>
+      </div>
+    </div>
   </footer>
 </body>
 

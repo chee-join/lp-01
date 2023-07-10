@@ -116,3 +116,119 @@ address {
 .about {
     text-align: center;
 }
+
+/*メニュー
+------------------------------------------*/
+.menu {
+    text-align: center;
+}
+
+ul.menu__list {
+    display: inline-block;
+    text-align: left;
+}
+
+/*メニューリスト*/
+ul.menu__list li {
+    margin-bottom: .5em;
+}
+
+/*フォト
+------------------------------------------*/
+.photos {
+    width: 50%;
+}
+
+/*フォトリスト*/
+ul.photos__list {
+    list-style: none;
+}
+
+ul.photos__list li {
+    margin-bottom: 2em;
+}
+
+ul.photos__list figcaption {
+    font-size: .9em;
+}
+
+/*アクセス
+------------------------------------------*/
+/*アクセス　左右横並び*/
+.access__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*左側(フレックスアイテム)*/
+.access__address strong {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+/*右側(フレックスアイテム)*/
+.access__map {
+    flex: 0 1 50%;
+}
+
+/*------------------------------------------
+  フッター
+------------------------------------------*/
+.footer {
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #edc245;
+}
+
+/*フッターの中身*/
+.footer__container {
+    display: flex;
+    margin: 0 auto;
+    width: 960px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*フッターロゴ(左側)*/
+.footer__logo {
+    width: 60px;
+}
+
+/*フッター・その他要素(右側)*/
+.footer__body {
+    text-align: right;
+}
+
+.footer__nav {
+    margin-bottom: 1em;
+}
+
+/*フッターナビリスト*/
+.footer__nav ul li {
+    display: inline-block;
+    margin: 0;
+    border-left: 1px solid #fff;
+}
+
+.footer__nav ul li:first-child {
+    border-left: none;
+}
+
+.footer__nav ul li a{
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer__nav ul li:last-child a{
+    padding-right: 0;
+}
+
+.copyright {
+    color: #fff;
+}
